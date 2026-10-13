@@ -5,7 +5,7 @@ using namespace std;
 //Purpose: Attempts to swap two integers
 //Parameters: a and b (passed by value - copies are made)
 //Returns: void
-void swapByValue(int a, int b) {
+void swapByValue(int &a, int &b) {
     //display the values of a and b before swapping
     cout << "Inside function - Before swap : a = " << a <<", b = "<< b << endl;
 
