@@ -34,5 +34,13 @@ int main() {
     //copies of x and y are sent to the function
     swapByValue(x, y);
 
-    //
+    //display the values after calling the function
+    cout << "After calling swapByValue: " <<endl;
+    cout << "x = " << x <<" , y = " << y << endl;
+    
+    //explain why the values did not change
+    cout << "\nExplanation: The function receives COPIES of x and y." <<endl;
+    cout << " Changes made inside the function do not affect the originals." <<endl;
+
+    return 0;
 }
