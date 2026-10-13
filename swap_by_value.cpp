@@ -30,5 +30,9 @@ int main() {
     cout << "Before calling swapByValue: " <<endl;
     cout << "x = " << x <<" , y = " << y << endl;
 
-    
+    //call the function, passing x and y by value
+    //copies of x and y are sent to the function
+    swapByValue(x, y);
+
+    //
 }
