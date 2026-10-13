@@ -6,3 +6,7 @@ using namespace std;
 int globalCounter = 100;
 
 //FUNCTION: displayGlobal
+//Purpose: Displays the value of the global variable
+void displayGlobal(){
+    
+}
