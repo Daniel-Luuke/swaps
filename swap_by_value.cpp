@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+// FUNCTION: swapByValue
+//Purpose: Attempts to swap two integers
+//Parameters: a and b (passed by value - copies are made)
+//Returns: void
+void swapByValue(int a, int b) {
+    //display the values of a and b before swapping
+    cout << "Inside function - Before swap : a = " << a <<", b = "<< b << endl;
+
+    //declare a temporary variable to hold the value of a
+    int temp = a;
+    //assign the value of b to a
+    a = b;
+    //assign the value of temp (original a) to b
+    b = temp;
+
+    //display the values of a and b after swapping
+    cout << "Inside function - After swap : a = " << a <<", b = " << b << endl;
+
+}
+
+int main() {
+    // declare two integer variables
+    int x = 10;
+    int y = 20;
+
+    //display the values before calling the function
+    cout << "Before calling swapByValue: " <<endl;
+    cout << "x = " << x <<" , y = " << y << endl;
+
+    
+}
