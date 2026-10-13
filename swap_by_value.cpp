@@ -40,7 +40,7 @@ int main() {
     
     //explain why the values did not change
     cout << "\nExplanation: The function receives COPIES of x and y." <<endl;
-    cout << " Changes made inside the function do not affect the originals." <<endl;
+    cout << "Changes made inside the function do not affect the originals." <<endl;
 
     return 0;
 }
